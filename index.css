@@ -16,12 +16,10 @@
 
 .body-container {
     background-image: linear-gradient(to right, black, #575757);
-    justify-content: space-around;
     display: flex;
     align-items: center;
     height: 100vh;
     position: relative;
-
 }
 
 .gru {
@@ -34,31 +32,21 @@
 }
 .about-container {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 90vh;
     position: relative;
 }
 
 .ach-container {
     background-color: #2c2c2c;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 90vh;
     position: relative;
 }
 
 .contact-container {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 90vh;
     position: relative;
 }
 
 .box {
-    text-align: center;
     box-shadow: 4px 2px 105px gray;
     border-radius: 10px;
 }
