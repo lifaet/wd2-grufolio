@@ -15,11 +15,12 @@
 }
 
 .body-container {
-    background-image: linear-gradient(to right, black, #575757);
+    background-image: url(./assets/background.png),linear-gradient(45deg, black, #575757);
     display: flex;
     align-items: center;
     height: 100vh;
     position: relative;
+    padding-top: 60px;
 }
 
 .gru {
@@ -37,7 +38,7 @@
 }
 
 .ach-container {
-    background-color: #2c2c2c;
+    background-image: url(./assets/background.png),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
     display: flex;
     position: relative;
 }
